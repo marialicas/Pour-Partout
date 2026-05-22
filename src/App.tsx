@@ -1,7 +1,13 @@
 import MainButton from "./components/mainButton/MainButton";
+import Header from "./components/header";
 
 function App() {
-  return <MainButton hasIcon={false} />;
+  return (
+    <>
+      <Header />
+      <MainButton hasIcon={false} />
+    </>
+  );
 }
 
 export default App;
