@@ -1,11 +1,9 @@
-import MainButton from "./components/mainButton/MainButton";
-import Header from "./components/header";
-
+import "./global.css";
+import Home from "./pages/Home";
 function App() {
   return (
     <>
-      <Header />
-      <MainButton hasIcon={false} />
+      <Home />
     </>
   );
 }
