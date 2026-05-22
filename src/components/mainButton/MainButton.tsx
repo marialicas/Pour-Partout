@@ -1,4 +1,3 @@
-import "../../global.css";
 import "./MainButton.css";
 import Arrow from "../../assets/icons/back-arrow.svg?react";
 
