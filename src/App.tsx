@@ -1,5 +1,7 @@
-import "./App.css";
+import MainButton from "./components/mainButton/MainButton";
 
-function App() {}
+function App() {
+  return <MainButton hasIcon={false} />;
+}
 
 export default App;
