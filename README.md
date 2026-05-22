@@ -1,6 +1,6 @@
 # 👜 Pour Partout
 
-Um site desenvolvida para representar a marca fictícia **Pour Partout**, focada em moda sustentável e elegância minimalista.
+Um site desenvolvido para representar a marca fictícia **Pour Partout**, focada em moda sustentável e elegância minimalista.
 O projeto foi criado utilizando **React + TypeScript + Vite**, com foco em responsividade, identidade visual e boas práticas de desenvolvimento front-end.
 
 **Figma:** https://www.figma.com/design/8KjgeoBkuSnHH2D84HGVFt/pourt-part?node-id=11-5&t=H52P4MJJxnt2XTtb-1
@@ -8,7 +8,7 @@ O projeto foi criado utilizando **React + TypeScript + Vite**, com foco em respo
 ## 🚀 Tecnologias Utilizadas
 
 <div align="left">
-<img src="https://skillicons.dev/icons?i=figma,react,ts,vite,html,css,git,github" />
+<img src="https://skillicons.dev/icons?i=figma,react,ts,vite,html,css,git" />
 </div>
 
 ## 🎨 Objetivo do Projeto
