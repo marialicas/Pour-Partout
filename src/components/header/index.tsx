@@ -6,7 +6,9 @@ function Header() {
   return (
     <div className="box-shadow">
       <header className="header">
-        <Logo />
+        <a href="">
+          <Logo></Logo>
+        </a>
         <nav aria-label="Menu" className="menu">
           <a className="page" href="">
             Bolsas
