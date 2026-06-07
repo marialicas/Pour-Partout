@@ -5,6 +5,7 @@
   --color-base-dark: #000000;
   --color-base-light: #ffffff;
   --color-dark-light: #11ee1e;
+  --color-dark-light2: #625f63;
   --padding-body: 1% 15%;
   --padding: 1% 5%;
 
@@ -21,7 +22,12 @@
 
 body,
 p,
-h1 {
+h1,
+h2 {
   padding: 0px;
   margin: 0px;
+}
+
+a {
+  text-decoration: none;
 }

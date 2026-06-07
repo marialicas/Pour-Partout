@@ -1,0 +1,59 @@
+#chose {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  align-items: center;
+  padding: var(--padding-body);
+  margin-top: 120px;
+}
+
+.chose-header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+
+  .veja-mais {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-family: var(--font-secondary);
+    font-size: 1rem;
+    color: black;
+    letter-spacing: 9%;
+  }
+}
+
+.chose-title {
+  font-family: var(--font-secondary);
+  font-size: 3rem;
+  letter-spacing: 9%;
+  line-height: 3rem;
+  font-weight: 600;
+  position: relative;
+  padding: 0 20px;
+}
+
+.chose-title::before {
+  display: block;
+  position: absolute;
+  content: " ";
+  width: 54px;
+  height: 10px;
+  background-color: var(--color-primary);
+  top: 30%;
+  z-index: -1;
+  right: 80%;
+}
+
+.cards-chose {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 1400px) {
+  #chose {
+    padding: var(--padding);
+  }
+}

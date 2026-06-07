@@ -1,5 +1,5 @@
 import "./style.css";
-import trioBolsas from "../../assets/images/trio-bolsas.webp";
+import trioBolsas from "@/assets/images/trio-bolsas.webp";
 
 function About() {
   return (

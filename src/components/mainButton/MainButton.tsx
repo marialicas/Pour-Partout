@@ -1,5 +1,5 @@
 import "./MainButton.css";
-import Arrow from "../../assets/icons/back-arrow.svg?react";
+import Arrow from "../../assets/icons/arrow.svg?react";
 
 type ButtonProps = {
   hasIcon: boolean;
