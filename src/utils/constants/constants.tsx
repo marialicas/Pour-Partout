@@ -8,6 +8,6 @@ const NALANDA = { image: bolsaNalanda, name: "Bolsa Nalanda", price: 200 };
 const ANAJU = { image: bolsaAnaju, name: "Bolsa Anaju", price: 500 };
 const TIANA = { image: bolsaTiana, name: "Bolsa Tiana", price: 400 };
 
-const bags = [TALITA, NALANDA, ANAJU, TIANA];
+const bags = [TALITA, NALANDA, TIANA, ANAJU];
 
 export { bags, TALITA };

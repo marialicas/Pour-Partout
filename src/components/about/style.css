@@ -11,18 +11,6 @@
   gap: 32px;
 }
 
-.about-title {
-  font-family: var(--font-secondary);
-  font-size: 3rem;
-  letter-spacing: 9%;
-  line-height: 3rem;
-  width: min-content;
-  white-space: normal;
-  font-weight: 600;
-  position: relative;
-  padding: 0 20px;
-}
-
 .about-desc {
   display: flex;
   gap: 20px;
@@ -32,18 +20,6 @@
     font-family: var(--font-primary);
     font-size: 1.2rem;
   }
-}
-
-.about-title::before {
-  display: block;
-  position: absolute;
-  content: " ";
-  width: 54px;
-  height: 10px;
-  background-color: var(--color-primary);
-  top: 20%;
-  z-index: -1;
-  right: 65%;
 }
 
 @media screen and (max-width: 1400px) {

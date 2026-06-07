@@ -1,6 +1,14 @@
+#folha-local {
+  position: relative;
+}
 #folha {
   position: absolute;
   z-index: -1;
   width: 100%;
-  top: 50%;
+  top: 30%;
+}
+
+.banner {
+  width: 100%;
+  height: auto;
 }

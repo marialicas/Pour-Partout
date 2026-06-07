@@ -1,3 +1,4 @@
+import Title from "../title";
 import "./style.css";
 import trioBolsas from "@/assets/images/trio-bolsas.webp";
 
@@ -5,7 +6,9 @@ function About() {
   return (
     <section id="about">
       <div className="about-text">
-        <h1 className="about-title">Sobre Nós</h1>
+        <Title hasBreak={true} isBlack={true}>
+          Sobre Nos
+        </Title>
         <div className="about-desc">
           <p>
             Você sabia que a industria da moda gerá 92 milhões de toneladas de

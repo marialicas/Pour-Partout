@@ -2,6 +2,7 @@ import "./style.css";
 import CardChoose from "./cardChoose";
 import { bags } from "@/utils/constants/constants";
 import ICONS from "@/utils/icons/icons";
+import Title from "@/components/title";
 
 function Choose() {
   const bagsElements = bags.map((bag) => <CardChoose {...bag} />);
@@ -9,7 +10,9 @@ function Choose() {
   return (
     <section id="choose">
       <div className="choose-header">
-        <h1 className="choose-title">Escolha a Sua</h1>
+        <Title hasBreak={false} isBlack={true}>
+          Escolha a sua
+        </Title>
         <a href="" className="veja-mais">
           <h2>Ver mais</h2>
           <ICONS.Arrow />
