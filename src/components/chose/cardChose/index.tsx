@@ -1,13 +1,18 @@
 import "./style.css";
-import bolsaTalita from "@/assets/images/img-produto-talita.png";
 
-function CardChose() {
+interface CardChoseProps {
+  nomeBolsa: string;
+  preco: number;
+  imagem: string;
+}
+
+function CardChose({ imagem, preco, nomeBolsa }: CardChoseProps) {
   return (
     <a className="card-chose" href="">
-      <img src={bolsaTalita} alt="bolsa-talita" />
+      <img src={imagem} alt={nomeBolsa} />
       <div className="card-chose-desc">
-        <h2 className="nome-bolsa">bolsa talita</h2>
-        <p>R$ 500</p>
+        <h2 className="nome-bolsa">{nomeBolsa}</h2>
+        <p>R${preco}</p>
       </div>
     </a>
   );
