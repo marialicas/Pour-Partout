@@ -1,6 +1,6 @@
 import "./style.css";
 import About from "../../components/about";
-import Chose from "../../components/chose";
+import Choose from "../../components/choose";
 import Header from "../../components/header";
 import MainButton from "../../components/mainButton/MainButton";
 import Folha from "@/assets/icons/folhas.svg?react";
@@ -11,7 +11,7 @@ function Home() {
       <Header />
       <About />
       <Folha id="folha" />
-      <Chose />
+      <Choose />
     </>
   );
 }

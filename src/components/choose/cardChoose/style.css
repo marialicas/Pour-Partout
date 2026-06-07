@@ -1,4 +1,4 @@
-.card-chose {
+.card-choose {
   display: flex;
   align-items: start;
   flex-direction: column;
@@ -13,7 +13,7 @@
   }
 }
 
-.card-chose-desc {
+.card-choose-desc {
   display: flex;
   flex-direction: column;
   gap: 8px;

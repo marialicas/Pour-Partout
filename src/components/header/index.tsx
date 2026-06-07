@@ -1,8 +1,10 @@
 import "./style.css";
-import Logo from "../../assets/icons/marca.svg?react";
-import Bag from "../../assets/icons/bag.svg?react";
+import ICONS from "@/utils/icons/icons";
 
 function Header() {
+  const Logo = ICONS.Logo;
+  const Bag = ICONS.Bag;
+
   return (
     <div className="box-shadow">
       <header className="header">

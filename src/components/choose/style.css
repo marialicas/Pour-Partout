@@ -1,4 +1,4 @@
-#chose {
+#choose {
   display: flex;
   flex-direction: column;
   gap: 60px;
@@ -7,7 +7,7 @@
   margin-top: 120px;
 }
 
-.chose-header {
+.choose-header {
   display: flex;
   justify-content: space-between;
   width: 100%;
@@ -23,7 +23,7 @@
   }
 }
 
-.chose-title {
+.choose-title {
   font-family: var(--font-secondary);
   font-size: 3rem;
   letter-spacing: 9%;
@@ -33,7 +33,7 @@
   padding: 0 20px;
 }
 
-.chose-title::before {
+.choose-title::before {
   display: block;
   position: absolute;
   content: " ";
@@ -45,7 +45,7 @@
   right: 80%;
 }
 
-.cards-chose {
+.cards-choose {
   display: flex;
   flex-direction: row;
   width: 100%;
@@ -53,7 +53,7 @@
 }
 
 @media screen and (max-width: 1400px) {
-  #chose {
+  #choose {
     padding: var(--padding);
   }
 }
