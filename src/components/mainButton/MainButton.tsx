@@ -1,15 +1,16 @@
 import "./MainButton.css";
-import Arrow from "../../assets/icons/arrow.svg?react";
+import { Arrow } from "@/utils/icons/icons";
 
 type ButtonProps = {
   hasIcon: boolean;
+  children: React.ReactNode;
 };
 
-function MainButton({ hasIcon }: ButtonProps) {
+function MainButton({ hasIcon, children }: ButtonProps) {
   return (
     <button className="main-button">
+      {children}
       {hasIcon ? <Arrow /> : null}
-      Enviar Mensagem
     </button>
   );
 }

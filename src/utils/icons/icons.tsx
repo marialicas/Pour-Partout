@@ -4,4 +4,4 @@ import Bag from "@/assets/icons/bag.svg?react";
 
 const ICONS = { Arrow, Logo, Bag };
 
-export default ICONS;
+export { ICONS, Arrow };

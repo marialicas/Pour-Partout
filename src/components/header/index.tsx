@@ -1,5 +1,5 @@
 import "./style.css";
-import ICONS from "@/utils/icons/icons";
+import { ICONS } from "@/utils/icons/icons";
 
 function Header() {
   const Logo = ICONS.Logo;

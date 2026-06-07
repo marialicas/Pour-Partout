@@ -1,7 +1,7 @@
 import "./style.css";
 import CardChoose from "./cardChoose";
 import { bags } from "@/utils/constants/constants";
-import ICONS from "@/utils/icons/icons";
+import { ICONS } from "@/utils/icons/icons";
 import Title from "@/components/title";
 
 function Choose() {

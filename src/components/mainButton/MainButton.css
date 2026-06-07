@@ -1,6 +1,5 @@
-
-.main-button{
-  display: flex;
+.main-button {
+  display: inline-flex;
   text-transform: uppercase;
   padding: var(--padding-botton);
   font-family: var(--font-primary);
@@ -13,4 +12,11 @@
   border-style: none;
   box-shadow: var(--box-shadow);
   cursor: pointer;
+  align-items: center;
+  gap: 16px;
+  align-self: flex-start;
+
+  svg {
+    color: var(--color-secondary);
+  }
 }

@@ -1,0 +1,45 @@
+.background {
+  position: relative;
+  background-color: var(--color-dark);
+  z-index: -2;
+}
+#create {
+  display: flex;
+  align-items: center;
+  padding: var(--padding-body);
+  position: relative;
+
+  img {
+    position: absolute;
+    left: 61%;
+  }
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 50%;
+  padding: 60px 0;
+
+  p {
+    font-family: var(--font-primary);
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 400;
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  #create {
+    padding: var(--padding);
+    overflow-x: clip;
+    overflow-y: visible;
+
+    img {
+      height: 110%;
+      object-fit: cover;
+      left: 61%;
+    }
+  }
+}

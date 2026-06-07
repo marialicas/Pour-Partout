@@ -8,8 +8,8 @@ interface TitleProps {
 }
 
 function Title({ children, hasBreak, isBlack }: TitleProps) {
-  const nameClass = hasBreak ? "break title" : "title";
-  nameClass.concat(isBlack ? " black" : " white");
+  let nameClass = hasBreak ? "break title" : "title";
+  nameClass = nameClass.concat(isBlack ? " black" : " white");
   return <div className={nameClass}>{children}</div>;
 }
 

@@ -2,9 +2,9 @@ import "./style.css";
 import About from "../../components/about";
 import Choose from "../../components/choose";
 import Header from "../../components/header";
-import MainButton from "../../components/mainButton/MainButton";
 import Folha from "@/assets/icons/folhas.svg?react";
 import banner from "@/assets/images/introducao.png";
+import Create from "@/components/create";
 
 function Home() {
   return (
@@ -16,6 +16,7 @@ function Home() {
         <Folha id="folha" />
         <Choose />
       </div>
+      <Create />
     </>
   );
 }
