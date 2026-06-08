@@ -3,7 +3,7 @@
 :root {
   --color-primary: #a4e178;
   --color-dark: #1e1e1e;
-  --color-dark-light2: #625f63;
+  --color-dark-light: #625f63;
   --padding-body: 1% 15%;
   --padding: 1% 5%;
 
@@ -21,11 +21,14 @@
 body,
 p,
 h1,
-h2 {
+h2,
+ul {
   padding: 0px;
   margin: 0px;
 }
 
-a {
+a,
+li {
   text-decoration: none;
+  list-style: none;
 }

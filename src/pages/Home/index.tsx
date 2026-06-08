@@ -5,6 +5,7 @@ import Header from "../../components/header";
 import Folha from "@/assets/icons/folhas.svg?react";
 import banner from "@/assets/images/introducao.png";
 import Create from "@/components/create";
+import Footer from "@/components/footer";
 
 function Home() {
   return (
@@ -17,6 +18,7 @@ function Home() {
         <Choose />
       </div>
       <Create />
+      <Footer />
     </>
   );
 }
