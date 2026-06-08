@@ -24,7 +24,7 @@
 .info {
   display: flex;
   flex-direction: row;
-  gap: 135px;
+  gap: 4vw;
 }
 
 .rights {

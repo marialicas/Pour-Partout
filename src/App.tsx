@@ -1,9 +1,10 @@
 import "./global.css";
-import Home from "./pages/Home";
+import MainRoute from "@/Routes";
+
 function App() {
   return (
     <>
-      <Home />
+      <MainRoute />
     </>
   );
 }
