@@ -8,11 +8,11 @@ function Header() {
   return (
     <div className="box-shadow">
       <header className="header">
-        <a href="">
+        <a href="/home">
           <Logo></Logo>
         </a>
         <nav aria-label="Menu" className="menu">
-          <a className="page" href="">
+          <a className="page" href="/bolsas">
             Bolsas
           </a>
           <a className="page" href="">

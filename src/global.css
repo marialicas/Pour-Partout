@@ -5,7 +5,9 @@
   --color-dark: #1e1e1e;
   --color-dark-light: #625f63;
   --padding-body: 1% 15%;
-  --padding: 1% 5%;
+  --padding-body-bolsa: 3% 15%;
+  --padding: 1% 10%;
+  --padding-bolsa: 3% 10%;
 
   --border-botton: 5px;
   --padding-botton: 16px 24px;
@@ -22,6 +24,8 @@ body,
 p,
 h1,
 h2,
+h3,
+h4,
 ul {
   padding: 0px;
   margin: 0px;

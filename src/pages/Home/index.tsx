@@ -1,9 +1,9 @@
 import "./style.css";
-import About from "../../components/about";
-import Choose from "../../components/choose";
+import About from "@/components/home/about";
+import Choose from "@/components/home/choose";
 import Folha from "@/assets/icons/folhas.svg?react";
 import banner from "@/assets/images/introducao.png";
-import Create from "@/components/create";
+import Create from "@/components/home/create";
 
 function Home() {
   return (

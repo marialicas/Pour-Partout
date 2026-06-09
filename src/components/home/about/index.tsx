@@ -1,4 +1,4 @@
-import Title from "../title";
+import Title from "@/components/title";
 import "./style.css";
 import trioBolsas from "@/assets/images/trio-bolsas.webp";
 

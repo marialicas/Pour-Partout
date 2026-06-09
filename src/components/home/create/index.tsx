@@ -1,5 +1,5 @@
 import "./style.css";
-import MainButton from "../mainButton/MainButton";
+import MainButton from "@/components/mainButton/index";
 import Title from "@/components/title";
 import bolsaCria from "@/assets/images/bolsa-cria.png";
 

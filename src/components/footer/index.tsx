@@ -4,7 +4,9 @@ function Footer() {
   return (
     <footer className="footer">
       <div className="rights">
-        <h1>POUR PARTOUT</h1>
+        <a href="/home">
+          <h1>POUR PARTOUT</h1>
+        </a>
         <p>Pour Partout. Alguns direitos reservados</p>
       </div>
       <div className="info">
@@ -24,7 +26,7 @@ function Footer() {
         <div className="information">
           <h2>Informações</h2>
           <ul>
-            <a href="">
+            <a href="/bolsas">
               <li>Bolsas</li>
             </a>
             <a href="">

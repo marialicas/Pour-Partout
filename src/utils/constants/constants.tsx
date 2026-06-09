@@ -10,4 +10,4 @@ const TIANA = { image: bolsaTiana, name: "Bolsa Tiana", price: 400 };
 
 const bags = [TALITA, NALANDA, TIANA, ANAJU];
 
-export { bags, TALITA };
+export { bags, TALITA, NALANDA, TIANA, ANAJU };

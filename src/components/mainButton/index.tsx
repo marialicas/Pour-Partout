@@ -1,4 +1,4 @@
-import "./MainButton.css";
+import "./style.css";
 import { Arrow } from "@/utils/icons/icons";
 
 type ButtonProps = {

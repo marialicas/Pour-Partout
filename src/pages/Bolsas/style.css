@@ -1,0 +1,23 @@
+.title-page {
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  padding: var(--padding-body-bolsa);
+  z-index: -2;
+  position: relative;
+  gap: 20px;
+
+  h2 {
+    text-transform: uppercase;
+    color: var(--color-dark-light);
+    font-family: var(--font-primary);
+    font-size: 1.2rem;
+    font-weight: 400;
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  .title-page {
+    padding: var(--padding-body-bolsa);
+  }
+}
